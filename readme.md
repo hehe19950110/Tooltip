@@ -62,3 +62,22 @@ auto：盒子不会创建一个新的本地堆叠上下文。在当前堆叠上�
   加有空白字符的、有效的表达式 calc(8px + -50%)会被解析成为：一个长度 后跟一个加号 再跟一个负百分比。
   
 `*` 和 `/` 这两个运算符前后不需要空白字符，但如果考虑到统一性，仍然推荐加上空白符。
+  
+5、onmouseenter：
+  
+onmouseenter， 元素绑定了监听事件后，当一个指针设备（通常是鼠标）移动到这个元素上时mouseenter事件将会被触发。该事件通常与 onmouseleave 事件一同使用, 在鼠标指针移出元素上时触发。
+
+onmousemove, onmouseenter 和 mouseover 事件的不同:
+```
+<div onmousemove="myMoveFunction()">
+  <p id="demo">我将演示 onmousemove!</p>
+</div>
+
+<div onmouseenter="myEnterFunction()">
+  <p id="demo2">我将演示 onmouseenter!</p>
+</div>
+
+<div onmouseover="myOverFunction()">
+  <p id="demo3">我将演示 onmouseover!</p>
+</div>
+```
