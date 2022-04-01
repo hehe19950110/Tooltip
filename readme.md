@@ -36,6 +36,7 @@ pre-wrap：连续的空白符会被保留。在遇到换行符或者`<br>`元素
 
 pre-line：连续的空白符会被合并。在遇到换行符或者`<br>`元素，或者需要为了填充「行框盒子(line boxes)」时会换行。
 
+
 3、z-index 属性设定了一个定位元素及其后代元素或 flex 项目的 z-order。 
 当元素之间重叠的时候， z-index 较大的元素会覆盖较小的元素在上层进行显示。
 
@@ -49,7 +50,7 @@ auto：盒子不会创建一个新的本地堆叠上下文。在当前堆叠上�
 
 4、calc(),此 CSS 函数允许在声明CSS属性值时执行一些计算,可以是采用标准操作符处理法则的简单表达式。
   
-它可以用在如下场合：<length>、<frequency>, <angle>、<time>、<percentage>、<number>、或 <integer>。
+它可以用在如下场合：`<length>、<frequency>, <angle>、<time>、<percentage>、<number>、或 <integer>。`
   
 表达式中的运算对象可以使用任意 <length> 值。如果你愿意，你可以在一个表达式中混用这类值的不同单位。在需要时，你还可以使用小括号来建立计算顺序。
   
