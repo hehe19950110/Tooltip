@@ -64,20 +64,14 @@ auto：盒子不会创建一个新的本地堆叠上下文。在当前堆叠上�
 `*` 和 `/` 这两个运算符前后不需要空白字符，但如果考虑到统一性，仍然推荐加上空白符。
   
 5、onmouseenter：
+  https://www.runoob.com/try/try.php?filename=tryjsref_onmousemove_over_enter
   
 onmouseenter， 元素绑定了监听事件后，当一个指针设备（通常是鼠标）移动到这个元素上时mouseenter事件将会被触发。该事件通常与 onmouseleave 事件一同使用, 在鼠标指针移出元素上时触发。
 
 onmousemove, onmouseenter 和 mouseover 事件的不同:
-```
-<div onmousemove="myMoveFunction()">
-  <p id="demo">我将演示 onmousemove!</p>
-</div>
 
-<div onmouseenter="myEnterFunction()">
-  <p id="demo2">我将演示 onmouseenter!</p>
-</div>
+onmousemove 事件在鼠标移动到 div 元素上时触发。
 
-<div onmouseover="myOverFunction()">
-  <p id="demo3">我将演示 onmouseover!</p>
-</div>
-```
+mouseenter 事件中有在鼠标指针进入 div 元素时触发。
+
+onmouseover 事件在鼠标指针进入 div 元素时触发,在子元素上也会触发(p 和 span)。
