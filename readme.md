@@ -1,7 +1,8 @@
 Tooltip组件
 
-1、border 和 outline
-有如下区别：
+1、outline 属性是在一条声明中设置多个轮廓属性的简写属性,例如 outline-style, outline-width 和 outline-color。
+
+border 和 outline有如下区别：
 outline不占据空间，绘制于元素内容周围。
 outline 属性可使用以下一个、两个或三个值来声明，且顺序不重要。
 根据规范，outline通常是矩形，但也可以是非矩形的。
